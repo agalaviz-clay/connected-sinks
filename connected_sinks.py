@@ -114,7 +114,7 @@ class ConnectedSinks:
                 return False
 
 def main():
-    file = "pipes_and_sinks.txt"
+    file = "pipe_system.txt"
     connected_sinks = ConnectedSinks()
     print(connected_sinks.find_connected_sinks(file))
 
